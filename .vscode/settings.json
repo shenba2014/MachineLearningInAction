@@ -1,0 +1,5 @@
+{
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintPath":"/home/leo/.local/bin/pylint",
+    "python.formatting.yapfPath": "/home/leo/.local/bin/yapf"
+}
