@@ -113,6 +113,7 @@ def restoreTree(fileName):
 
 if __name__ == "__main__":
     dataSet, labels = createDataSet()
+    print calcShannonEnt(dataSet)
     # bestFeature = chooseBestFeaturToSplit(dataSet)
     # print splitDataSet(dataSet, bestFeature, 1)
     # print splitDataSet(dataSet, bestFeature, 0)
